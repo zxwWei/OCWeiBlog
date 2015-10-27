@@ -1,5 +1,5 @@
 //
-//  XWHomeTableVC.h
+//  XWDiscoverTableVC.h
 //  WeiboOC
 //
 //  Created by apple on 15/10/27.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "XWCompassVC.h"
-
-@interface XWHomeTableVC : XWCompassVC
+@interface XWDiscoverTableVC : XWCompassVC
 
 @end

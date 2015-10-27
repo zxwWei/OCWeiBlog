@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XWTabBarVc.h"
+#import "XWTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -18,14 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.window = [[UIWindow alloc] init];
+#pragma Warning - 窗口的frame啊
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //self.window = [[UIWindow alloc] init];
+    [self.window makeKeyAndVisible];
     
-    XWTabBarVc *tabBar = [[XWTabBarVc alloc] init];
+    XWTabBarVC *tabBar = [[XWTabBarVC alloc]init];
     
     
     self.window.rootViewController = tabBar;
     
-    [self.window makeKeyAndVisible];
     
     return YES;
 }

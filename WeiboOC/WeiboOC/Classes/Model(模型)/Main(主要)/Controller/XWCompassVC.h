@@ -1,5 +1,5 @@
 //
-//  XWTabBarVc.h
+//  XWCompassVC.h
 //  WeiboOC
 //
 //  Created by apple on 15/10/27.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XWTabBarVc : UITabBarController
+@interface XWCompassVC : UITableViewController
 
 @end
+

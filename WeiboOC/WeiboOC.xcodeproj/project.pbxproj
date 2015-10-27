@@ -7,24 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185262931BDFA58F005D0A93 /* XWTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185262921BDFA58F005D0A93 /* XWTabBarVC.m */; settings = {ASSET_TAGS = (); }; };
+		185262961BDFA60F005D0A93 /* XWHomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185262951BDFA60F005D0A93 /* XWHomeTableVC.m */; settings = {ASSET_TAGS = (); }; };
+		185262991BDFA622005D0A93 /* XWMessageTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185262981BDFA622005D0A93 /* XWMessageTableVC.m */; settings = {ASSET_TAGS = (); }; };
+		1852629C1BDFA63E005D0A93 /* XWDiscoverTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852629B1BDFA63E005D0A93 /* XWDiscoverTableVC.m */; settings = {ASSET_TAGS = (); }; };
+		1852629F1BDFA650005D0A93 /* XWProfileTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852629E1BDFA650005D0A93 /* XWProfileTableVC.m */; settings = {ASSET_TAGS = (); }; };
+		185262A21BDFB261005D0A93 /* XWCompassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185262A11BDFB261005D0A93 /* XWCompassVC.m */; settings = {ASSET_TAGS = (); }; };
+		185262A51BDFB678005D0A93 /* XWCompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185262A41BDFB678005D0A93 /* XWCompassView.m */; settings = {ASSET_TAGS = (); }; };
 		18C52B691BDF642700792DF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C52B681BDF642700792DF1 /* main.m */; };
 		18C52B6C1BDF642700792DF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C52B6B1BDF642700792DF1 /* AppDelegate.m */; };
 		18C52B741BDF642700792DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C52B731BDF642700792DF1 /* Assets.xcassets */; };
-		18C52B9A1BDF677B00792DF1 /* XWTabBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C52B991BDF677B00792DF1 /* XWTabBarVc.m */; settings = {ASSET_TAGS = (); }; };
-		18C52B9D1BDF683400792DF1 /* XWHomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C52B9C1BDF683400792DF1 /* XWHomeTableVC.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185262911BDFA58F005D0A93 /* XWTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTabBarVC.h; sourceTree = "<group>"; };
+		185262921BDFA58F005D0A93 /* XWTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTabBarVC.m; sourceTree = "<group>"; };
+		185262941BDFA60F005D0A93 /* XWHomeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWHomeTableVC.h; sourceTree = "<group>"; };
+		185262951BDFA60F005D0A93 /* XWHomeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWHomeTableVC.m; sourceTree = "<group>"; };
+		185262971BDFA622005D0A93 /* XWMessageTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMessageTableVC.h; sourceTree = "<group>"; };
+		185262981BDFA622005D0A93 /* XWMessageTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMessageTableVC.m; sourceTree = "<group>"; };
+		1852629A1BDFA63E005D0A93 /* XWDiscoverTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDiscoverTableVC.h; sourceTree = "<group>"; };
+		1852629B1BDFA63E005D0A93 /* XWDiscoverTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDiscoverTableVC.m; sourceTree = "<group>"; };
+		1852629D1BDFA650005D0A93 /* XWProfileTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWProfileTableVC.h; sourceTree = "<group>"; };
+		1852629E1BDFA650005D0A93 /* XWProfileTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWProfileTableVC.m; sourceTree = "<group>"; };
+		185262A01BDFB261005D0A93 /* XWCompassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCompassVC.h; sourceTree = "<group>"; };
+		185262A11BDFB261005D0A93 /* XWCompassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCompassVC.m; sourceTree = "<group>"; };
+		185262A31BDFB678005D0A93 /* XWCompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCompassView.h; sourceTree = "<group>"; };
+		185262A41BDFB678005D0A93 /* XWCompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCompassView.m; sourceTree = "<group>"; };
 		18C52B641BDF642700792DF1 /* WeiboOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C52B681BDF642700792DF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C52B6A1BDF642700792DF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C52B6B1BDF642700792DF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18C52B731BDF642700792DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C52B781BDF642700792DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C52B981BDF677B00792DF1 /* XWTabBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTabBarVc.h; sourceTree = "<group>"; };
-		18C52B991BDF677B00792DF1 /* XWTabBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTabBarVc.m; sourceTree = "<group>"; };
-		18C52B9B1BDF683400792DF1 /* XWHomeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWHomeTableVC.h; sourceTree = "<group>"; };
-		18C52B9C1BDF683400792DF1 /* XWHomeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWHomeTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,203 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185262791BDF709F005D0A93 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				1852627A1BDF709F005D0A93 /* Controller */,
+				1852627B1BDF709F005D0A93 /* Model */,
+				1852627C1BDF709F005D0A93 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		1852627A1BDF709F005D0A93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1852629A1BDFA63E005D0A93 /* XWDiscoverTableVC.h */,
+				1852629B1BDFA63E005D0A93 /* XWDiscoverTableVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1852627B1BDF709F005D0A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1852627C1BDF709F005D0A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1852627D1BDF709F005D0A93 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				1852627E1BDF709F005D0A93 /* Controller */,
+				1852627F1BDF709F005D0A93 /* Model */,
+				185262801BDF709F005D0A93 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		1852627E1BDF709F005D0A93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185262971BDFA622005D0A93 /* XWMessageTableVC.h */,
+				185262981BDFA622005D0A93 /* XWMessageTableVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1852627F1BDF709F005D0A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185262801BDF709F005D0A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185262811BDF709F005D0A93 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				185262821BDF709F005D0A93 /* Controller */,
+				185262831BDF709F005D0A93 /* Model */,
+				185262841BDF709F005D0A93 /* View */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		185262821BDF709F005D0A93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1852629D1BDFA650005D0A93 /* XWProfileTableVC.h */,
+				1852629E1BDFA650005D0A93 /* XWProfileTableVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185262831BDF709F005D0A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185262841BDF709F005D0A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185262851BDF70A9005D0A93 /* Extenxion(延伸) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Extenxion(延伸)";
+			sourceTree = "<group>";
+		};
+		185262861BDF70A9005D0A93 /* Library(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Library(第三方库)";
+			sourceTree = "<group>";
+		};
+		185262871BDF70A9005D0A93 /* Module(公共模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module(公共模型)";
+			sourceTree = "<group>";
+		};
+		185262881BDF70A9005D0A93 /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		185262891BDFA53F005D0A93 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				1852628A1BDFA53F005D0A93 /* Controller */,
+				1852628B1BDFA53F005D0A93 /* Model */,
+				1852628C1BDFA53F005D0A93 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		1852628A1BDFA53F005D0A93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185262941BDFA60F005D0A93 /* XWHomeTableVC.h */,
+				185262951BDFA60F005D0A93 /* XWHomeTableVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1852628B1BDFA53F005D0A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1852628C1BDFA53F005D0A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1852628D1BDFA53F005D0A93 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				1852628E1BDFA53F005D0A93 /* Controller */,
+				1852628F1BDFA53F005D0A93 /* Model */,
+				185262901BDFA53F005D0A93 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		1852628E1BDFA53F005D0A93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185262911BDFA58F005D0A93 /* XWTabBarVC.h */,
+				185262921BDFA58F005D0A93 /* XWTabBarVC.m */,
+				185262A01BDFB261005D0A93 /* XWCompassVC.h */,
+				185262A11BDFB261005D0A93 /* XWCompassVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1852628F1BDFA53F005D0A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185262901BDFA53F005D0A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185262A31BDFB678005D0A93 /* XWCompassView.h */,
+				185262A41BDFB678005D0A93 /* XWCompassView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18C52B5B1BDF642700792DF1 = {
 			isa = PBXGroup;
 			children = (
@@ -78,212 +290,25 @@
 		18C52B7E1BDF64CE00792DF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				18C52B7F1BDF64CE00792DF1 /* Extenxion(延伸) */,
-				18C52B801BDF64CE00792DF1 /* Library(第三方库) */,
+				185262851BDF70A9005D0A93 /* Extenxion(延伸) */,
 				18C52B811BDF64CE00792DF1 /* Model(模型) */,
-				18C52B961BDF64CE00792DF1 /* Module(公共模型) */,
-				18C52B971BDF64CE00792DF1 /* Tool(工具) */,
+				185262861BDF70A9005D0A93 /* Library(第三方库) */,
+				185262871BDF70A9005D0A93 /* Module(公共模型) */,
+				185262881BDF70A9005D0A93 /* Tool(工具) */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		18C52B7F1BDF64CE00792DF1 /* Extenxion(延伸) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Extenxion(延伸)";
-			sourceTree = "<group>";
-		};
-		18C52B801BDF64CE00792DF1 /* Library(第三方库) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Library(第三方库)";
 			sourceTree = "<group>";
 		};
 		18C52B811BDF64CE00792DF1 /* Model(模型) */ = {
 			isa = PBXGroup;
 			children = (
-				18C52B8A1BDF64CE00792DF1 /* Main(主要) */,
-				18C52B861BDF64CE00792DF1 /* Home(首页) */,
-				18C52B821BDF64CE00792DF1 /* Discover(发现) */,
-				18C52B8E1BDF64CE00792DF1 /* Message()消息 */,
-				18C52B921BDF64CE00792DF1 /* Profile(我) */,
+				1852628D1BDFA53F005D0A93 /* Main(主要) */,
+				185262891BDFA53F005D0A93 /* Home(首页) */,
+				1852627D1BDF709F005D0A93 /* Message(消息) */,
+				185262791BDF709F005D0A93 /* Discover(发现) */,
+				185262811BDF709F005D0A93 /* Profile(我) */,
 			);
 			path = "Model(模型)";
-			sourceTree = "<group>";
-		};
-		18C52B821BDF64CE00792DF1 /* Discover(发现) */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B831BDF64CE00792DF1 /* Controller */,
-				18C52B841BDF64CE00792DF1 /* Model */,
-				18C52B851BDF64CE00792DF1 /* View */,
-			);
-			path = "Discover(发现)";
-			sourceTree = "<group>";
-		};
-		18C52B831BDF64CE00792DF1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		18C52B841BDF64CE00792DF1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18C52B851BDF64CE00792DF1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C52B861BDF64CE00792DF1 /* Home(首页) */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B871BDF64CE00792DF1 /* Controller */,
-				18C52B881BDF64CE00792DF1 /* Model */,
-				18C52B891BDF64CE00792DF1 /* View */,
-			);
-			path = "Home(首页)";
-			sourceTree = "<group>";
-		};
-		18C52B871BDF64CE00792DF1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B9B1BDF683400792DF1 /* XWHomeTableVC.h */,
-				18C52B9C1BDF683400792DF1 /* XWHomeTableVC.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		18C52B881BDF64CE00792DF1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18C52B891BDF64CE00792DF1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C52B8A1BDF64CE00792DF1 /* Main(主要) */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B8B1BDF64CE00792DF1 /* Controller */,
-				18C52B8C1BDF64CE00792DF1 /* Model */,
-				18C52B8D1BDF64CE00792DF1 /* View */,
-			);
-			path = "Main(主要)";
-			sourceTree = "<group>";
-		};
-		18C52B8B1BDF64CE00792DF1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B981BDF677B00792DF1 /* XWTabBarVc.h */,
-				18C52B991BDF677B00792DF1 /* XWTabBarVc.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		18C52B8C1BDF64CE00792DF1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18C52B8D1BDF64CE00792DF1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C52B8E1BDF64CE00792DF1 /* Message()消息 */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B8F1BDF64CE00792DF1 /* Controller */,
-				18C52B901BDF64CE00792DF1 /* Model */,
-				18C52B911BDF64CE00792DF1 /* View */,
-			);
-			path = "Message()消息";
-			sourceTree = "<group>";
-		};
-		18C52B8F1BDF64CE00792DF1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		18C52B901BDF64CE00792DF1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18C52B911BDF64CE00792DF1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C52B921BDF64CE00792DF1 /* Profile(我) */ = {
-			isa = PBXGroup;
-			children = (
-				18C52B931BDF64CE00792DF1 /* Controller */,
-				18C52B941BDF64CE00792DF1 /* Model */,
-				18C52B951BDF64CE00792DF1 /* View */,
-			);
-			path = "Profile(我)";
-			sourceTree = "<group>";
-		};
-		18C52B931BDF64CE00792DF1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		18C52B941BDF64CE00792DF1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18C52B951BDF64CE00792DF1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C52B961BDF64CE00792DF1 /* Module(公共模型) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Module(公共模型)";
-			sourceTree = "<group>";
-		};
-		18C52B971BDF64CE00792DF1 /* Tool(工具) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Tool(工具)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,10 +381,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C52B9A1BDF677B00792DF1 /* XWTabBarVc.m in Sources */,
 				18C52B6C1BDF642700792DF1 /* AppDelegate.m in Sources */,
+				1852629C1BDFA63E005D0A93 /* XWDiscoverTableVC.m in Sources */,
+				185262991BDFA622005D0A93 /* XWMessageTableVC.m in Sources */,
 				18C52B691BDF642700792DF1 /* main.m in Sources */,
-				18C52B9D1BDF683400792DF1 /* XWHomeTableVC.m in Sources */,
+				185262931BDFA58F005D0A93 /* XWTabBarVC.m in Sources */,
+				185262A51BDFB678005D0A93 /* XWCompassView.m in Sources */,
+				1852629F1BDFA650005D0A93 /* XWProfileTableVC.m in Sources */,
+				185262A21BDFB261005D0A93 /* XWCompassVC.m in Sources */,
+				185262961BDFA60F005D0A93 /* XWHomeTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

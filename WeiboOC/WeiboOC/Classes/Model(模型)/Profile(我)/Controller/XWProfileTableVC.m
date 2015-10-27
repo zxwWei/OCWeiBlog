@@ -1,21 +1,18 @@
 //
-//  XWHomeTableVC.m
+//  XWProfileTableVC.m
 //  WeiboOC
 //
 //  Created by apple on 15/10/27.
 //  Copyright © 2015年 ZXW. All rights reserved.
 //
 
-#import "XWHomeTableVC.h"
+#import "XWProfileTableVC.h"
 
-@interface XWHomeTableVC ()
+@interface XWProfileTableVC ()
 
 @end
 
-@implementation XWHomeTableVC
-
-
-#pragma mark - 分组
+@implementation XWProfileTableVC
 -(instancetype)init{
     
     return [self initWithStyle:UITableViewStyleGrouped];
@@ -28,8 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //self.view.backgroundColor = [UIColor whiteColor];
+    //self.view.backgroundColor = [UIColor grayColor];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -43,6 +39,16 @@
 }
 
 
+
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+*/
 
 /*
 // Override to support conditional editing of the table view.

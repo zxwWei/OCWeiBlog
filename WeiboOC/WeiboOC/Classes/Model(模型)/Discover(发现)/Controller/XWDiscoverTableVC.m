@@ -1,21 +1,19 @@
 //
-//  XWHomeTableVC.m
+//  XWDiscoverTableVC.m
 //  WeiboOC
 //
 //  Created by apple on 15/10/27.
 //  Copyright © 2015年 ZXW. All rights reserved.
 //
 
-#import "XWHomeTableVC.h"
+#import "XWDiscoverTableVC.h"
 
-@interface XWHomeTableVC ()
+@interface XWDiscoverTableVC ()
 
 @end
 
-@implementation XWHomeTableVC
+@implementation XWDiscoverTableVC
 
-
-#pragma mark - 分组
 -(instancetype)init{
     
     return [self initWithStyle:UITableViewStyleGrouped];
@@ -29,12 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //self.view.backgroundColor = [UIColor whiteColor];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.view.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,6 +36,15 @@
 }
 
 
+/*
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+*/
 
 /*
 // Override to support conditional editing of the table view.
